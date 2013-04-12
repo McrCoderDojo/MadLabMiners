@@ -21,3 +21,10 @@ Outline Plan
 To-do List
 ----------
 
+Lua Tutorial
+------------
+
+Sources of Lua information:
+
+* [Lua Tutorial on GitHub](https://github.com/Jeija/minetest-modding-tutorial)
+* [Lua Tutorial on Minetest dev wiki](http://dev.minetest.net/Intro)
