@@ -21,3 +21,32 @@ Outline Plan
 To-do List
 ----------
 
+Lua Tutorial
+------------
+
+Sources of Lua information:
+
+* [Lua Tutorial on GitHub](https://github.com/Jeija/minetest-modding-tutorial)
+* [Lua Tutorial on Minetest dev wiki](http://dev.minetest.net/Intro)
+
+
+Outline of steps in ideal Lua tutorial:
+
+* Quick intro to the idea
+* Hello world example
+  * How to create the directories
+  * How to create the init.lua file
+  * Code to make brick blocks complain when you hit them
+* Code to print a message when you hit a particular type of block
+* Code to add a new block
+* Code to add new crafting
+* Code to active block modifiers (ABMs)
+* Deploying code to a server -- think of something colaborative to do here
+
+Tutorual To-do:
+
+* Find the list of available default block types
+* Spell check
+* Find a HTML validator to check the HTML
+* Make sure that it prints out okay
+* Make prettier
