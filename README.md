@@ -3,7 +3,7 @@ MadLab Miners
 
 This repository is for planning and code related to the Minecraft/Minetest group at MadLab.
 
-Next Meeting:  10th May 2015
+Next Meeting:  14th June 2015 -- The Manchester Day Parade
 ===========================
 
 Outline Plan
@@ -16,17 +16,19 @@ We have the Manchester Day Parade coming up on Sunday 14th June.  We have space 
 * Capture the float in some way that it can be added to the server which is displaying all the floats (e.g. https://github.com/Uberi/Minetest-WorldEdit )
 * Implement a server that shows all the floats in the parade -- project up on to the wall
 
-### Things That Will Be More Difficult
-* Push images from the Minetest parade on to the electronic advertising van that is really in the parade
-
 To-do List
 ----------
 
-1. Add the WorldEdit mod to the CoderDojo game pack
 2. Implement the client world/code that will have a defined area in which to build your float, have a button to save your float out some how, finally reset the world so that the next person can build a float
 3. Implement the server to display all the floats and some how animate them going past
 4. Implement the code to add the saved floats into the parade
 5. Implement some code to handle what happens when you get too many floats in the parade
+
+
+Done List
+----------
+1. Add the WorldEdit mod to the CoderDojo game pack
+
 
 
 Lua Tutorial
