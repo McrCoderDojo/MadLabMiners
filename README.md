@@ -31,6 +31,26 @@ Done List
 
 
 
+Float Creation Client
+---------------------
+
+The float creation client is a stand-alone PC running Minetest with the parade game pack installed.  The PC is expected to be running Linux (probably Mint).  The cycle for the usage of the float creating client is as follows:
+
+1. New user arrives as the PC and is presented with a well defined cuboid (30W x 15D x 30H) within which they have to create their float
+2. The user builds their float in Minetest within the bounds of the defined area
+3. When they are happy with their creation they press a button to say they want to add their float to the parade
+4. The button triggers Minetest lua code to save out their float the a well-known folder using Worldedit
+5. The building area cuboid is reset to empty ready for the next user
+6. (The client does NOT have the responsibility for getting the float added to the server.  A separate monitor process will be watching the well-known folder and will add the new float to the parade world.)
+
+
+
+
+
+
+
+
+
 Lua Tutorial
 ------------
 
