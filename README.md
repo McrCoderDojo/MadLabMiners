@@ -19,6 +19,7 @@ We have the Manchester Day Parade coming up on Sunday 14th June.  We have space 
 To-do List
 ----------
 
+1. Set up build infrastructure for working with the client -- Vagrant + linux Mint
 2. Implement the client world/code that will have a defined area in which to build your float, have a button to save your float out some how, finally reset the world so that the next person can build a float
 3. Implement the server to display all the floats and some how animate them going past
 4. Implement the code to add the saved floats into the parade
@@ -39,16 +40,26 @@ The float creation client is a stand-alone PC running Minetest with the parade g
 1. New user arrives as the PC and is presented with a well defined cuboid (30W x 15D x 30H) within which they have to create their float
 2. The user builds their float in Minetest within the bounds of the defined area
 3. When they are happy with their creation they press a button to say they want to add their float to the parade
-4. The button triggers Minetest lua code to save out their float the a well-known folder using Worldedit
+4. The button triggers Minetest lua code to save out their float the a well-known folder using Worldedit.  There needs to be a unique naming scheme to avoid float files overwriting on the server
 5. The building area cuboid is reset to empty ready for the next user
 6. (The client does NOT have the responsibility for getting the float added to the server.  A separate monitor process will be watching the well-known folder and will add the new float to the parade world.)
 
 
+Parade Display Server
+---------------------
 
+The server should expect to read a well known folder which will contain the WorldEdit schem files which describe the floats to display.
 
+1. The floats should be put in a line along 'Deansgate'.  Deansgate is simply a long straight line of cobble stone with a float one after the other with a suitable space inbetween
+2. If a file is added to the folder then the server should notice the new file and add it on to the end of the row
+3. If a file is removed from the folder then the server should notice and remove the foat from the parade (perhaps redrawing the whole line if this is the easiest way of updating)
+4. The server world should contain a single player who is standing to the side of Deansgate.  The server should automatically update the single player's location so that they move along Deansgate viewing each of the floats at a time.  At the end of the line of float the single player should teleport back to the start
+5. Management of removing unwanted/old floats from the server is done manually by moving the specific files out of the well known folder
 
+Float Transfer from Client to Server
+------------------------------------
 
-
+There needs to be a system to transfering client float files from the clients to the server.  The suggested initial design is that this is done by simple NFS or equivalent.  
 
 
 Lua Tutorial
