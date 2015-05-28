@@ -68,9 +68,13 @@ How to help with the development
 1. Install Vagrant
 2. Install VirtualBox
 3. git clone https://github.com/McrCoderDojo/MadLabMiners.git
-4. cd ManchesterDayParade
-5. cd FloatClient
-6. vagrant up
+4. cd MadLabMiners/ManchesterDayParade/FloatClient/
+5. vagrant up
+6. ...wait the length of time needed to get a cup of tea -- allow for a solid brew.
+7. When virtual box pops up login using the username "vagrant" and password "vagrant"
+8. Double check the console to make sure the Vagrant provisioning process has finished
+9. Run "minetest" from the games menu
+10. In single player mode start the "Parade_Client_World"
 
 
 

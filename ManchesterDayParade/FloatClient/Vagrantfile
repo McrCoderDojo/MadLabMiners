@@ -8,9 +8,8 @@ sudo apt-get -y update
 sudo apt-get -y install Minetest
 echo Linking the Manchester CoderDojo game
 sudo ln -s /vagrant/mcr_coderdojo /usr/share/minetest/games/mcr_coderdojo
-mkdir --parents ~/.minetest/worlds
-ln -s /vagrant/Parade_Client_World ~/.minetest/worlds/Parade_Client_World
-
+mkdir --parents /home/vagrant/.minetest/worlds
+ln -s /vagrant/Parade_Client_World /home/vagrant/.minetest/worlds/Parade_Client_World
 SCRIPT
 
 Vagrant.configure(2) do |config|
