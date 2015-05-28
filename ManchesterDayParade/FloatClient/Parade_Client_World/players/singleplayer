@@ -1,0 +1,64 @@
+breath = 11
+hp = 20
+name = singleplayer
+pitch = 7.7
+position = (-389.14,35,-118.72)
+version = 1
+yaw = -308.8
+PlayerArgsEnd
+List main 32
+Width 0
+Item default:sand
+Item default:brick
+Item default:cobble
+Item mesecons:wire_00000000_off
+Item mesecons_luacontroller:luacontroller0000
+Item mesecons_button:button_off
+Item default:diamondblock
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List craft 9
+Width 3
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List craftpreview 1
+Width 0
+Empty
+EndInventoryList
+List craftresult 1
+Width 0
+Empty
+EndInventoryList
+EndInventory
