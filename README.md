@@ -65,6 +65,8 @@ There needs to be a system to transferring client float files from the clients t
 How to help with the development
 --------------------------------
 
+
+###Getting the float client running in a VM using Vagrant and VirtualBox
 1. Install Vagrant
 2. Install VirtualBox
 3. git clone https://github.com/McrCoderDojo/MadLabMiners.git

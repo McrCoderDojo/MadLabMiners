@@ -10,6 +10,7 @@ echo Linking the Manchester CoderDojo game
 sudo ln -s /vagrant/mcr_coderdojo /usr/share/minetest/games/mcr_coderdojo
 mkdir --parents /home/vagrant/.minetest/worlds
 ln -s /vagrant/Parade_Client_World /home/vagrant/.minetest/worlds/Parade_Client_World
+chmod -R a+w /home/vagrant/.minetest
 SCRIPT
 
 Vagrant.configure(2) do |config|
