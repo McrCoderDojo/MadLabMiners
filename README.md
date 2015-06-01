@@ -65,8 +65,19 @@ There needs to be a system to transferring client float files from the clients t
 How to help with the development
 --------------------------------
 
+### Running the client -- Adding to an existing Minetest install
 
-###Getting the float client running in a VM using Vagrant and VirtualBox
+1. Make sure that you have git installed
+2. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
+3. cd MadLabMiners/ManchesterDayParade/FloatClient/
+4. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
+5. Run minetest
+
+There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
+
+
+### Running the client -- Vagrant and VirtalBox
+
 1. Install Vagrant
 2. Install VirtualBox
 3. git clone https://github.com/McrCoderDojo/MadLabMiners.git
@@ -77,6 +88,7 @@ How to help with the development
 8. Double check the console to make sure the Vagrant provisioning process has finished
 9. Run "minetest" from the games menu
 10. In single player mode start the "Parade_Client_World"
+
 
 
 

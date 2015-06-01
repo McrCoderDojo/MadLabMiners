@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ "$#" -ne 1 ]]; then
+    echo "usage:   install_existing_linux [path-to-root-of-minetest-files]"
+fi
+
+cp -R mcr_coderdojo $1/games
+cp -R Parade_Client_World $1/worlds
+
+echo Files copied to $1.  Please re-start Minetest to play
