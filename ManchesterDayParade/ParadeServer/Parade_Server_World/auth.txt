@@ -1,0 +1,3 @@
+Camera::server,shout,fly,password,bring,kick,worldedit,teleport,ban,noclip,parade_server,fast,basic_privs,home,rollback,privs,interact,settime,give:1433271941
+WorldController::server,shout,fly,password,bring,kick,worldedit,teleport,ban,noclip,privs,fast,basic_privs,home,give,parade_server,interact,settime,rollback:1433271938
+singleplayer::fast,shout,interact,worldedit,settime,fly:1432757863

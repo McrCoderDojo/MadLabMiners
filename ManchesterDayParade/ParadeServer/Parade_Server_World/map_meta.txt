@@ -1,0 +1,139 @@
+chunksize = 5
+mg_biome_np_heat = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 3
+	offset = 50
+	persistence = 0.5
+	scale = 50
+	seed = 5349
+	spread = (500,500,500)
+}
+mg_biome_np_humidity = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 3
+	offset = 50
+	persistence = 0.5
+	scale = 50
+	seed = 842
+	spread = (500,500,500)
+}
+mg_flags = trees, caves, nodungeons, flat, light
+mg_name = v6
+mgv6_freq_beach = 0.15
+mgv6_freq_desert = 0.45
+mgv6_np_apple_trees = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 3
+	offset = 0
+	persistence = 0.45
+	scale = 1
+	seed = 342902
+	spread = (100,100,100)
+}
+mgv6_np_beach = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 3
+	offset = 0
+	persistence = 0.5
+	scale = 1
+	seed = 59420
+	spread = (250,250,250)
+}
+mgv6_np_biome = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 3
+	offset = 0
+	persistence = 0.5
+	scale = 1
+	seed = 9130
+	spread = (250,250,250)
+}
+mgv6_np_cave = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 3
+	offset = 6
+	persistence = 0.5
+	scale = 6
+	seed = 34329
+	spread = (250,250,250)
+}
+mgv6_np_height_select = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 5
+	offset = 0
+	persistence = 0.69
+	scale = 1
+	seed = 4213
+	spread = (250,250,250)
+}
+mgv6_np_humidity = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 4
+	offset = 0.5
+	persistence = 0.66
+	scale = 0.5
+	seed = 72384
+	spread = (500,500,500)
+}
+mgv6_np_mud = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 3
+	offset = 4
+	persistence = 0.55
+	scale = 2
+	seed = 91013
+	spread = (200,200,200)
+}
+mgv6_np_steepness = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 5
+	offset = 0.85
+	persistence = 0.7
+	scale = 0.5
+	seed = -932
+	spread = (125,125,125)
+}
+mgv6_np_terrain_base = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 5
+	offset = -4
+	persistence = 0.6
+	scale = 20
+	seed = 82341
+	spread = (250,250,250)
+}
+mgv6_np_terrain_higher = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 5
+	offset = 20
+	persistence = 0.6
+	scale = 16
+	seed = 85039
+	spread = (500,500,500)
+}
+mgv6_np_trees = {
+	flags = defaults
+	lacunarity = 2
+	octaves = 4
+	offset = 0
+	persistence = 0.66
+	scale = 1
+	seed = 2
+	spread = (125,125,125)
+}
+mgv6_spflags = nojungles, biomeblend, mudflow
+seed = 5393693937731978974
+water_level = 1
+[end_of_params]

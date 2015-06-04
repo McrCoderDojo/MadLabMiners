@@ -1,0 +1,64 @@
+breath = 11
+hp = 20
+name = WorldController
+pitch = 68.16
+position = (-1436.52,207.11,1008.61)
+version = 1
+yaw = 171
+PlayerArgsEnd
+List main 32
+Width 0
+Item default:obsidian
+Item default:leaves
+Item mesecons_luacontroller:luacontroller0000
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List craft 9
+Width 3
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List craftpreview 1
+Width 0
+Empty
+EndInventoryList
+List craftresult 1
+Width 0
+Empty
+EndInventoryList
+EndInventory
