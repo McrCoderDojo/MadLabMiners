@@ -89,7 +89,16 @@ There is no windows installer equivalent.  Please feel free to add a script file
 9. Run "minetest" from the games menu
 10. In single player mode start the "Parade_Client_World"
 
+### Running the client -- Adding to an existing Minetest install
 
+1. Make sure that you have git installed
+2. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
+3. Follow the instructions above to install the client first
+4. cd MadLabMiners/ManchesterDayParade/ParadeServer
+5. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
+6. Run minetest
+
+There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
 
 
 Lua Tutorial
