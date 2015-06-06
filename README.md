@@ -60,6 +60,8 @@ There needs to be a system to transferring client float files from the clients t
 How to help with the development
 --------------------------------
 
+Take a look at a video to show the current progress:  https://youtu.be/_hd4BEhQt18
+
 ### Running the client -- Adding to an existing Minetest install
 
 1. Make sure that you have git installed
