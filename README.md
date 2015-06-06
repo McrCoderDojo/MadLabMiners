@@ -64,7 +64,7 @@ To-do List
 Setup for the library
 ---------------------
 
-![setup diagram](https://github.com/McrCoderDojo/MadLabMiners/tree/master/ManchesterDayParade/library-setup.jpg "Anticipated setup of machines in the library")
+![setup diagram](https://raw.githubusercontent.com/McrCoderDojo/MadLabMiners/master/ManchesterDayParade/library-setup.jpg "Anticipated setup of machines in the library")
 
 
 
