@@ -59,6 +59,13 @@ To-do List
 4. ~~Implement the code to add the saved floats into the parade~~
 5. Set up a mini-version of the configuration for the library: one server and one client on separate machines with NFS mount between the two for adding floats from the client to the server
 
+----------
+
+Setup for the library
+---------------------
+
+[setup diagram]: https://github.com/McrCoderDojo/MadLabMiners/tree/master/ManchesterDayParade/library-setup.jpg "Anticipated setup of machines in the library"
+
 
 
 Float Creation Client
