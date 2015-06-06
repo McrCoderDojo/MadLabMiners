@@ -19,17 +19,12 @@ We have the Manchester Day Parade coming up on Sunday 14th June.  We have space 
 To-do List
 ----------
 
-1. Set up build infrastructure for working with the client -- Vagrant + Linux Mint
-2. Implement the client world/code that will have a defined area in which to build your float, have a button to save your float out some how, finally reset the world so that the next person can build a float
-3. Implement the server to display all the floats and some how animate them going past
-4. Implement the code to add the saved floats into the parade
-5. Implement some code to handle what happens when you get too many floats in the parade
-
-
-Done List
-----------
-1. Add the WorldEdit mod to the CoderDojo game pack
-
+0. ~~Add the WorldEdit mod to the CoderDojo game pack~~
+1. ~~Set up build infrastructure for working with the client -- Vagrant + Linux Mint~~
+2. ~~Implement the client world/code that will have a defined area in which to build your float, have a button to save your float out some how, finally reset the world so that the next person can build a float~~
+3. ~~Implement the server to display all the floats and some how animate them going past~~
+4. ~~Implement the code to add the saved floats into the parade~~
+5. Set up a mini-version of the configuration for the library: one server and one client on separate machines with NFS mount between the two for adding floats from the client to the server
 
 
 Float Creation Client
@@ -68,38 +63,29 @@ How to help with the development
 ### Running the client -- Adding to an existing Minetest install
 
 1. Make sure that you have git installed
-2. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
-3. cd MadLabMiners/ManchesterDayParade/FloatClient/
-4. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
-5. Run minetest
-
-There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
-
-
-### Running the client -- Vagrant and VirtalBox
-
-1. Install Vagrant
-2. Install VirtualBox
-3. git clone https://github.com/McrCoderDojo/MadLabMiners.git
+2. Make sure that you have Minetest installed -- at least version 0.4.12
+3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
 4. cd MadLabMiners/ManchesterDayParade/FloatClient/
-5. vagrant up
-6. ...wait the length of time needed to get a cup of tea -- allow for a solid brew.
-7. When virtual box pops up login using the username "vagrant" and password "vagrant"
-8. Double check the console to make sure the Vagrant provisioning process has finished
-9. Run "minetest" from the games menu
-10. In single player mode start the "Parade_Client_World"
-
-### Running the client -- Adding to an existing Minetest install
-
-1. Make sure that you have git installed
-2. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
-3. Follow the instructions above to install the client first
-4. cd MadLabMiners/ManchesterDayParade/ParadeServer
 5. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
 6. Run minetest
 
 There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
 
+
+### Running the client -- Adding to an existing Minetest install
+
+1. Make sure that you have git installed
+2. Make sure that you have Minetest installed -- at least version 0.4.12
+3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
+4. Follow the instructions above to install the client first
+5. cd MadLabMiners/ManchesterDayParade/ParadeServer
+6. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
+7. Run minetest
+
+There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
+
+
+----------------
 
 Lua Tutorial
 ------------
