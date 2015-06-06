@@ -16,6 +16,39 @@ We have the Manchester Day Parade coming up on Sunday 14th June.  We have space 
 * Capture the float in some way that it can be added to the server which is displaying all the floats (e.g. https://github.com/Uberi/Minetest-WorldEdit )
 * Implement a server that shows all the floats in the parade -- project up on to the wall
 
+How to install the client and server
+------------------------------------
+
+Take a look at a video to show the current progress:  https://youtu.be/_hd4BEhQt18
+
+### Running the client -- Adding to an existing Minetest install
+
+1. Make sure that you have git installed
+2. Make sure that you have Minetest installed -- at least version 0.4.12
+3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
+4. cd MadLabMiners/ManchesterDayParade/FloatClient/
+5. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
+6. Run minetest
+
+There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
+
+
+### Running the client -- Adding to an existing Minetest install
+
+1. Make sure that you have git installed
+2. Make sure that you have Minetest installed -- at least version 0.4.12
+3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
+4. Follow the instructions above to install the client first
+5. cd MadLabMiners/ManchesterDayParade/ParadeServer
+6. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
+7. Run minetest
+
+There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
+
+
+--------
+
+
 To-do List
 ----------
 
@@ -25,6 +58,7 @@ To-do List
 3. ~~Implement the server to display all the floats and some how animate them going past~~
 4. ~~Implement the code to add the saved floats into the parade~~
 5. Set up a mini-version of the configuration for the library: one server and one client on separate machines with NFS mount between the two for adding floats from the client to the server
+
 
 
 Float Creation Client
@@ -56,35 +90,6 @@ Float Transfer from Client to Server
 
 There needs to be a system to transferring client float files from the clients to the server.  The suggested initial design is that this is done by simple NFS or equivalent.  
 
-
-How to help with the development
---------------------------------
-
-Take a look at a video to show the current progress:  https://youtu.be/_hd4BEhQt18
-
-### Running the client -- Adding to an existing Minetest install
-
-1. Make sure that you have git installed
-2. Make sure that you have Minetest installed -- at least version 0.4.12
-3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
-4. cd MadLabMiners/ManchesterDayParade/FloatClient/
-5. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
-6. Run minetest
-
-There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
-
-
-### Running the client -- Adding to an existing Minetest install
-
-1. Make sure that you have git installed
-2. Make sure that you have Minetest installed -- at least version 0.4.12
-3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
-4. Follow the instructions above to install the client first
-5. cd MadLabMiners/ManchesterDayParade/ParadeServer
-6. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
-7. Run minetest
-
-There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
 
 
 ----------------
