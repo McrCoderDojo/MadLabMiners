@@ -57,7 +57,7 @@ To-do List
 2. ~~Implement the client world/code that will have a defined area in which to build your float, have a button to save your float out some how, finally reset the world so that the next person can build a float~~
 3. ~~Implement the server to display all the floats and some how animate them going past~~
 4. ~~Implement the code to add the saved floats into the parade~~
-5. Set up a mini-version of the configuration for the library: one server and one client on separate machines with NFS mount between the two for adding floats from the client to the server
+5. Set up a mini-version of the configuration for the library: one server and one client on separate machines with NFS mount between the two for adding floats from the client to the server -- [Issue #2](https://github.com/McrCoderDojo/MadLabMiners/issues/2)
 
 ----------
 
