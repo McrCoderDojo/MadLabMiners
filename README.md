@@ -33,7 +33,7 @@ Take a look at a video to show the current progress:  https://youtu.be/_hd4BEhQt
 There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
 
 
-### Running the client -- Adding to an existing Minetest install
+### Running the server -- Adding to an existing Minetest install
 
 1. Make sure that you have git installed
 2. Make sure that you have Minetest installed -- at least version 0.4.12
