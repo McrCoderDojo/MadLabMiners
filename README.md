@@ -27,7 +27,7 @@ Take a look at a video to show the current progress:  https://youtu.be/_hd4BEhQt
 2. Make sure that you have Minetest installed -- at least version 0.4.12
 3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
 4. cd MadLabMiners/ManchesterDayParade/FloatClient/
-5. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
+5. Run `install_existing_linux [PATH_TO_YOUR_MINETEST_FILES]`
 6. Run minetest
 
 There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
@@ -40,7 +40,7 @@ There is no windows installer equivalent.  Please feel free to add a script file
 3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
 4. Follow the instructions above to install the client first
 5. cd MadLabMiners/ManchesterDayParade/ParadeServer
-6. Run `install_existing_linx [PATH_TO_YOUR_MINETEST_FILES]`
+6. Run `install_existing_linux [PATH_TO_YOUR_MINETEST_FILES]`
 7. Run minetest
 
 There is no windows installer equivalent.  Please feel free to add a script file a send a pull request.
