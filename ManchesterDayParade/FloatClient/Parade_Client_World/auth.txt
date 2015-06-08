@@ -1,2 +1,0 @@
-singleplayer::fast,interact,settime,shout,fly:1432848012
-WorldController:+ijPr+zsgWec3Ixanx1JP9qzDE0:server,shout,fly,password,bring,kick,worldedit,teleport,ban,noclip,basic_privs,privs,fast,home,give,rollback,interact,grant,settime,parade_local:1432399318
