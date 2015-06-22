@@ -25,7 +25,7 @@ Take a look at a video to show the current progress:  https://youtu.be/_hd4BEhQt
 
 1. Make sure that you have git installed
 2. Make sure that you have Minetest installed -- at least version 0.4.12
-3. In a clean directory `git clone https://github.com/McrCoderDojo/MadLabMiners.git`
+3. In a clean directory `git clone --recursive https://github.com/McrCoderDojo/MadLabMiners.git`
 4. cd MadLabMiners/ManchesterDayParade/coderdojo_parade/scripts
 5. Run `install_client_with_git_to_linux [PATH_TO_YOUR_MINETEST_FILES]`
 6. Run minetest
