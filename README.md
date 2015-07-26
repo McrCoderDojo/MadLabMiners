@@ -23,7 +23,7 @@ To-do List
 
 These are the things to get done.  If you'd like to get involved with helping out send an email to dave@goopot.co.uk.
 
-* MakeFest:  Risk assessment -- Dave P will write up and send in docs to the organisers
+* ~~MakeFest:  Risk assessment -- Dave P will write up and send in docs to the organisers~~
 * MakeFest:  Minetest Parade server + client setup
   * MakeFest:  Clean server world set up
 	* MakeFest:  Clean client setup on linux mint machine
