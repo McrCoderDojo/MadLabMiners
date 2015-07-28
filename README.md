@@ -55,3 +55,10 @@ These are the things to get done.  If you'd like to get involved with helping ou
 * MakeFest:  Sunday morning stand team
 * MakeFest:  Sunday afternoon stand team
 
+Contributing
+------------
+
+To get the source code for the project you need to make sure that you clone this repository and the submodules.  To do that run the command:
+
+    git clone --recursive https://github.com/McrCoderDojo/MadLabMiners.git
+
