@@ -32,6 +32,13 @@ To-do List
     * MUX8WAY16
     * DMUX4WAY
     * DMUX8WAY
+* Intro page on the wiki
+* Look at how to do the dominos
+* See if we can buy some dominos from the Mcr CoderDojo fund
+* Think how we get everyone working in groups for this
+* Think if there is some building element we can incorporate
+* See how hard it would be to build additional mods to Mescons with more logic components
+    * Do Minetest mods already exist with more compoents
 
 Contributing
 ------------
