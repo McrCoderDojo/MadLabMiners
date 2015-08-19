@@ -43,4 +43,4 @@ To-do List
 Contributing
 ------------
 
-Shout up on the Manchester CoderDojo volunteer mailing list or email to dave@goopot.co.uk
+Shout up on the Manchester CoderDojo volunteer mailing list or email to: dave@goopot.co.uk
