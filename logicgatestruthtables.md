@@ -47,3 +47,11 @@
 | On            | Off           | On       | Off     |
 | Off           | Off           | On       | Off     |
 | Off           | On            | On       | On      |
+
+# "Demultiplexor" (DMux) Gate
+| Input         | Selector      | Output 1 | Output 2 |
+| ------------- |:-------------:| :------: |---------:|
+| On            | Off           | On       | Off      |
+| Off           | Off           | Off      | Off      |
+| On            | On            | Off      | On       |
+| Off           | On            | Off      | Off      |
