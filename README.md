@@ -3,42 +3,44 @@ MadLab Miners
 
 This repository is for planning and code related to the Minecraft/Minetest group at MadLab.
 
-Next Meeting:  13th September 2015
+Next Meeting:  17th October 2015
 ===========================
 
 Outline Plan
 ------------
 
-Just starting planning for the next CoderDojo.  Dave P is going to investigate if we can follow the [Nand to Tetris](http://www.nand2tetris.org/) course using Minetest and the logic gates in Mesecons.
+Keeping going on the [Nand to Tetris](http://www.nand2tetris.org/) theme, this time we're going to be seeing different ways that we can build machines to add up two numbers.
 
-As a secondary idea we could make the logic gates from dominos also:  https://www.sparkfun.com/news/1024
+1. String, clothes pegs, and paper
+2. Minetest with people being the gates
+3. Minetest with Mescon gates
 
-To-do List
-----------
 
-* Document truth tables for:
-    * NAND
-    * NOT
-    * AND
-    * OR
-    * MUX
-    * DMUX
-    * NOT16
-    * AND16
-    * OR16
-    * MUX16
-    * OR8WAY
-    * MUX4WAY16
-    * MUX8WAY16
-    * DMUX4WAY
-    * DMUX8WAY
-* Intro page on the wiki
-* Look at how to do the dominos
-* See if we can buy some dominos from the Mcr CoderDojo fund
-* Think how we get everyone working in groups for this
-* Think if there is some building element we can incorporate
-* See how hard it would be to build additional mods to Mescons with more logic components
-    * Do Minetest mods already exist with more compoents
+Binary Numbers
+--------------
+
+In order to add up numbers on a computer you have first got to represent numbers as "on" and "off" values in binary:
+
+![Binary Table](https://farm6.staticflickr.com/5690/20826912291_fff07c4c22.jpg "Binary Table")
+
+
+Half-Adder
+-----------
+
+You can add up two binary numbers with a half-adder:
+
+
+![Half-adder](http://2007.igem.org/wiki/images/c/c0/Half-adder.png "Half-adder")
+
+
+Full-Adder
+-----------
+
+You can add up three binary numbers with a full-adder:
+
+![Full-adder](http://robey.lag.net/images/full-adder-simple.png "Full-adder")
+
+
 
 Contributing
 ------------
