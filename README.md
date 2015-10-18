@@ -38,7 +38,7 @@ Full-Adder
 
 You can add up three binary numbers with a full-adder:
 
-![Full-adder](http://robey.lag.net/images/full-adder-simple.png "Full-adder")
+![Full-adder](http://estss.com/NCS/_IMAGES/PROJECTS/382_IC/382_FA_diagram.gif "Full-adder")
 
 
 
