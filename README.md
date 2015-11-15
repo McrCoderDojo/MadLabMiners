@@ -3,7 +3,7 @@ MadLab Miners
 
 This repository is for planning and code related to the Minecraft/Minetest group at MadLab.
 
-Next Meeting:  17th October 2015
+Next Meeting:  15th November 2015
 ===========================
 
 Outline Plan
