@@ -4,3 +4,6 @@
 
 *.suo
 .vagrant/
+winterwonderland/server/dot_minetest/debug.txt
+winterwonderland/server/dot_minetest/worlds/WinterWonderWorld/mesecon_actionqueue
+winterwonderland/server/dot_minetest/worlds/WinterWonderWorld/players/

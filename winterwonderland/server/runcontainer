@@ -3,4 +3,4 @@
 sudo docker run -ti \
     -p 30000:30000/udp  \
     -v `pwd`/dot_minetest:/root/.minetest \
-    davegoopot/mcrcd-minetest:winter /usr/games/minetestserver --worldname WinterWonderWorld
+    davegoopot/mcrcd-minetest:winter /usr/games/minetestserver --worldname WinterWonderWorld --config /root/.minetest/minetest.conf
