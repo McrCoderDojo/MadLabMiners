@@ -26,9 +26,9 @@ To Do List
 
   1. ~~Archive whatever is already running on the server~~ -- Seem the coderdojo server is broken.  We'll leave this for now.  I'll run something up on Azure for the session on Sunday
   2. ~~Update latest packages on the server~~ -- N/a until coderdojo server is fixed
-  3. Set up a git folder that will build a docker file for the server -- Dave working on this now
-  4. Make a base world with snow --Barney (done where should I put it?)
-  5. Make sure whitelisting with sensible defaults are working on the server
+  3. ~~Set up a git folder that will build a docker file for the server~~
+  4. Make a base world with snow
+  5. Make sure whitelisting with sensible defaults are working on the server -- Dave working on this
   6. Write up instructions how to get the game pack and how to get on the server
   7. Make sure the game pack is up-to-date and working with the server build
   8. Figure out how to take snapshots of the world from the server periodically in case of need to rollback
