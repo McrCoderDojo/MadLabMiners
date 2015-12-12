@@ -27,7 +27,7 @@ To Do List
   1. Archive whatever is already running on the server -- Dave's working on this one
   2. Update latest packages on the server
   3. Set up a git folder that will build a docker file for the server
-  4. Make a base world with snow
+  4. Make a base world with snow --Barney (done where should I put it?)
   5. Make sure whitelisting with sensible defaults are working on the server
   6. Write up instructions how to get the game pack and how to get on the server
   7. Make sure the game pack is up-to-date and working with the server build
