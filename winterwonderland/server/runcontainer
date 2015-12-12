@@ -1,3 +1,6 @@
 #!/bin/bash
 
-sudo docker run -ti -p 30000:30000/udp davegoopot/mcrcd-minetest:winter /bin/bash
+sudo docker run -ti \
+    -p 30000:30000/udp  \
+    -v `pwd`/dot_minetest:/root/.minetest \
+    davegoopot/mcrcd-minetest:winter /usr/games/minetestserver --worldname WinterWonderWorld
