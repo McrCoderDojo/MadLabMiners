@@ -1,1 +1,2 @@
-dave:MCKPoLvPxPIY3SrET/QIx7dDMYU:interact,shout,creative,fast,fly,privs,settime,server:1449942478
+dave:MCKPoLvPxPIY3SrET/QIx7dDMYU:fast,server,creative,settime,interact,privs,shout,fly:1449942478
+barney:1msrHWUBzHqnNSFxb9KhRQdwnL0:fast,creative,interact,shout,fly:1449995099
